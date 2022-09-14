@@ -45,8 +45,7 @@ describe ("Test Case 1: Register User", () => {
 
     it ("7. Click 'Signup' button", ()=> {
         
-        cy.get ("button[data-qa='signup-button']")
-        .click();
+        cy.get ("button[data-qa='signup-button']").click();
 
     })
 
